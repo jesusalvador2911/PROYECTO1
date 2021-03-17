@@ -3,80 +3,34 @@
     <head>
         <title>Search</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <style>
-        body, input, button {
-            font-family: arial, sans-serif;
-        }
-        .header {
-            display: flex;
-            flex-direction: row;
-            align-content: flex-end;
-            padding: 6px;
-        }
-        .header-content{
-            margin-left: auto;
-            /* padding: 6px;
-            border-radius: 2px;
-            margin-right: 2px; */
-            box-sizing: border-box;
-            height: 48px;
-            line-height: normal;
-            padding: 4px;
-            justify-content: flex-end;
-            display: inline-block;
-        }
-        a{
-            cursor:pointer;
-            text-decoration:none;
-            color:black;
-            
-        }
-        a:hover{
-            color: black;
-
-        }
-        .boton{
-            width:30px;
-            height:30px;
-            
-            margin: 5px;
-            padding:4px;
-            -webkit-border-radius: 50px;
-            -moz-border-radius: 50px;
-            border-radius: 50px;
-            font-size:11px;
-            text-transform: uppercase;
-            display: inline-block;
-}
-.boton:hover{
-        opacity: 0.50;
-        -moz-opacity: .50;
-        filter:alpha (opacity=50);
-        }
-
-    .google{
-        flex-shrink: 0;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    </style>
+        <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
     </head>
     <body>
         <div class="header">
             <div class="header-content">
-                <a href="https://mail.google.com/mail/u/0/">Gmail</a>
-                <a href="imagenes.html">Imágenes</a>
-                <div class="boton"><a href="#"><img src="lupa.png" border="0" style="height: 50px; width: 50px;"></a></div>
+                <a href="https://mail.google.com/mail/u/0/" class="links">Gmail</a>
+                <a href="imagenes.html" class="links">Imágenes</a>
+                <div class="boton"><a href="#"><img src="CSS/J.png" border="0" style="height: 30px; width: 30px; border-radius: 50px;"></a></div>
             </div>
         </div>
         <div class="google">
-            <img src="logoG.png" >
+            <img src="CSS/logoG.png" style="padding-bottom: 20px;">
+            <div class="busqueda">
+                <div class="busqueda_div">
+                    <form action="https://google.com/search">
+                    <input type="text" name="q" class="redondeadonorelieve">
+                <div class="botonera">
+                    <input class="enter" type="submit" value="Buscar con Google">
+                    <input class="enter" type="button" value="Me siento con suerte">
+                    <input class="enter" type="subtim" value="Busqueda Avanzada" style="padding-right: 10px;">
+                </div>
+                <div class="botonera">
+
+                </div>
+                </div>
+            </div>
         </div>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+        
         </form>
     </body>
 </html>
