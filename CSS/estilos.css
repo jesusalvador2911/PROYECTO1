@@ -106,7 +106,7 @@
         filter:alpha (opacity=50);
     }
       .botonera{
-          padding-top: 18px;
+          margin-top: 18px;
           flex-direction: row;
           align-items: center;
           display: flex;
@@ -135,3 +135,50 @@
         filter:alpha (opacity=50);
 
       }
+
+
+/* ADVANCE */
+.advanceinput {
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    
+}
+.adv {
+    /* display: flex;
+    text-align: left; */
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+.late {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.adv_inst {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 16px;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0;
+    font-style: inherit;
+}
+/* as_epq
+esta palabra o frase exactas: */
